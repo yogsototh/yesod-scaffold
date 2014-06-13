@@ -2,6 +2,7 @@ module Model where
 
 import Prelude
 import Yesod
+import Data.Bool
 import Data.Text (Text)
 import Database.Persist.Quasi
 import Database.Persist.MongoDB hiding (master)
